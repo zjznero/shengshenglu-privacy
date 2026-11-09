@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>声声录 · 隐私政策</title>
+<meta name="description" content="声声录 App 隐私政策：所有录音仅保存在你的设备本地，应用未申请网络权限。">
+<style>
+  :root {
+    --bg: #F5F6F8;
+    --card: #FFFFFF;
+    --tx1: #16181D;
+    --tx2: #4A4F5A;
+    --tx3: #8A8F9A;
+    --red: #E8332F;
+    --line: #E6E8EC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--tx1);
+    font-family: -apple-system, BlinkMacSystemFont, "HarmonyOS Sans SC",
+                 "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px 64px; }
+  header {
+    padding: 48px 0 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 32px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .logo {
+    width: 44px; height: 44px; border-radius: 11px;
+    background: linear-gradient(135deg, #FF5A5C 0%, #C81E2A 100%);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .logo svg { display: block; }
+  h1 { font-size: 24px; margin: 0; font-weight: 700; letter-spacing: -0.3px; }
+  .meta { font-size: 13px; color: var(--tx3); margin: 0; }
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 34px 0 12px;
+    padding-left: 11px;
+    border-left: 3px solid var(--red);
+    line-height: 1.4;
+  }
+  h3 { font-size: 14.5px; font-weight: 600; margin: 18px 0 8px; color: var(--tx1); }
+  p, li { font-size: 14.5px; color: var(--tx2); margin: 0 0 10px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--tx1); font-weight: 600; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13px;
+    background: #F0F2F5;
+    border-radius: 4px;
+    padding: 1px 5px;
+    color: #3A4049;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 0 24px 24px;
+    margin-top: 24px;
+  }
+  .callout {
+    background: #FFF6F5;
+    border: 1px solid #F6D5D2;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 16px 0;
+  }
+  .callout p { margin: 0; color: #7A2723; font-size: 14px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 16px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--line);
+    color: var(--tx2);
+    vertical-align: top;
+  }
+  th { color: var(--tx1); font-weight: 600; background: #FAFBFC; }
+  td code { white-space: nowrap; }
+  footer {
+    margin-top: 40px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--tx3);
+    text-align: center;
+  }
+  @media (max-width: 480px) {
+    header { padding: 32px 0 22px; }
+    h1 { font-size: 21px; }
+    .card { padding: 0 18px 18px; border-radius: 12px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="logo">
+        <!-- 与应用图标一致：声波柱 -->
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+          <rect x="2.6"  y="9.4" width="2.6" height="7.2"  rx="1.3" fill="#FFFFFF" opacity="0.55"/>
+          <rect x="7.0"  y="6.2" width="2.6" height="13.6" rx="1.3" fill="#FFFFFF" opacity="0.8"/>
+          <rect x="11.7" y="2.8" width="2.6" height="20.4" rx="1.3" fill="#FFFFFF"/>
+          <rect x="16.4" y="6.2" width="2.6" height="13.6" rx="1.3" fill="#FFFFFF" opacity="0.8"/>
+          <rect x="20.8" y="9.4" width="2.6" height="7.2"  rx="1.3" fill="#FFFFFF" opacity="0.55"/>
+        </svg>
+      </div>
+      <div>
+        <h1>声声录 · 隐私政策</h1>
+        <p class="meta">生效日期：2026 年 11 月 9 日　·　版本 1.0.0</p>
+      </div>
+    </div>
+    <p>
+      感谢你使用「声声录」。我们非常重视你的隐私与数据安全。
+      本政策说明本应用会处理哪些信息、如何使用这些信息，以及你对数据的控制权。
+    </p>
+    <div class="callout">
+      <p>
+        <strong>一句话概括：</strong>所有录音与音频处理都在你的设备本地完成，
+        <strong>本应用未申请网络权限，从系统层面就不具备联网上传的能力</strong>。
+      </p>
+    </div>
+  </header>
+
+  <div class="card">
+
+    <h2>一、我们处理哪些信息</h2>
+    <p>本应用仅处理与录音功能直接相关的信息，且全部在你的设备本地处理：</p>
+    <ul>
+      <li>
+        <strong>麦克风音频</strong>：仅在你主动点击「开始录音」后采集，用于生成录音文件。
+        未开始录音时不会采集任何音频。
+      </li>
+      <li>
+        <strong>设备内部播放音频</strong>：仅在你主动录音、并允许本应用录制设备内声音后采集，
+        用于「内录」功能，采集的是你本机正在播放的声音。
+      </li>
+      <li>
+        <strong>录音文件与派生文件</strong>：录音本身，以及你在应用内编辑后产生的文件
+        （裁剪后的录音、降噪后的录音、导出的 MP3、打包的 ZIP 压缩包等）。
+      </li>
+      <li>
+        <strong>录音元信息</strong>：录音名称、时长、文件大小、录制时间、录制来源（内录／麦克风／混合），
+        用于在本机列表中展示与管理。
+      </li>
+    </ul>
+    <p>
+      我们不收集你的姓名、手机号、通讯录、位置、相册、设备唯一标识符（如 IMEI／OAID）等任何个人信息，
+      也不收集任何使用行为或崩溃统计数据。
+    </p>
+
+    <h2>二、我们如何使用这些信息</h2>
+    <p>上述信息仅用于在你本机实现以下功能，<strong>全部处理过程均在设备本地完成</strong>：</p>
+    <table>
+      <thead>
+        <tr><th>功能</th><th>本机处理内容</th><th>是否离开设备</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>录音（麦克风／内录／混合）</td><td>采集音频并写入音频文件</td><td>否</td></tr>
+        <tr><td>播放与倍速播放</td><td>读取本地音频文件</td><td>否</td></tr>
+        <tr><td>波形编辑（只保留选中／删除选中）</td><td>在本地重写音频片段</td><td>否</td></tr>
+        <tr><td>AI 降噪（若设备支持）</td><td>调用系统本地音频处理能力</td><td>否</td></tr>
+        <tr><td>去首尾静音</td><td>在本地裁掉首尾无声片段</td><td>否</td></tr>
+        <tr><td>分享为 MP3</td><td>在本地转码为 MP3 文件</td><td>否（除非你主动分享，见第六条）</td></tr>
+        <tr><td>批量导出 ZIP</td><td>在本地打包为压缩文件</td><td>否（除非你主动分享，见第六条）</td></tr>
+        <tr><td>桌面卡片</td><td>在本地保存最近一条录音的名称与时长，用于卡片展示</td><td>否</td></tr>
+      </tbody>
+    </table>
+
+    <h2>三、我们不会做什么</h2>
+    <ul>
+      <li>
+        <strong>不会联网上传任何录音。</strong>本应用<strong>未申请网络权限</strong>
+        （<code>ohos.permission.INTERNET</code>），系统层面即禁止其访问网络。
+      </li>
+      <li>不集成任何第三方广告、统计分析、推送或崩溃上报 SDK。</li>
+      <li>不与其他任何第三方共享、出售或转让你的数据。</li>
+      <li>不在你未主动操作时后台录音 —— 录音必须由你主动触发，录制期间通知栏与桌面会持续显示录音状态。</li>
+      <li>不申请与功能无关的权限（如位置、通讯录、相册、电话状态）。</li>
+    </ul>
+
+    <h2>四、权限说明</h2>
+    <p>本应用仅申请以下两项权限，均与核心功能直接相关：</p>
+    <table>
+      <thead>
+        <tr><th>权限</th><th>用途</th><th>可否拒绝</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>MICROPHONE</code><br>麦克风</td>
+          <td>录制麦克风声音；「混合」模式需要与内录同时使用</td>
+          <td>可拒绝，拒绝后仍可使用内录</td>
+        </tr>
+        <tr>
+          <td><code>KEEP_BACKGROUND_RUNNING</code><br>后台运行</td>
+          <td>息屏或切换到其他应用后继续录音，避免录音中断</td>
+          <td>可拒绝，拒绝后仅前台录音</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      此外，<strong>录制设备内声音由系统单独管理</strong>：首次使用时系统会弹出确认框，
+      也可能需要你在「设置」中开启相应开关。这是系统的隐私保护机制，本应用无法绕过，
+      也无法在你未授权的情况下获取设备内声音。
+    </p>
+
+    <h2>五、数据存储与删除</h2>
+    <p>
+      所有录音文件仅保存在你的设备本地（应用私有目录
+      <code>/data/storage/el2/base/haps/entry/files/</code>），其他应用无权访问。
+    </p>
+    <ul>
+      <li>你可以在应用内删除单条录音，或使用「选择 → 批量删除」删除多条。</li>
+      <li>
+        编辑录音时会保留一份原始备份（<code>.bak</code>），供你随时「恢复原始录音」；
+        该备份同样仅存于本机，在恢复或删除录音时一并清除。
+      </li>
+      <li>分享时生成的 MP3、导出的 ZIP 属于临时文件，会在你删除对应录音或下次启动应用时自动清理。</li>
+      <li><strong>卸载本应用将清除全部本地数据，且无法恢复。</strong></li>
+    </ul>
+
+    <h2>六、分享与导出：数据何时会离开本机</h2>
+    <p>
+      本应用没有自己的服务器。只有当你<strong>主动点击「分享」并选择目标应用</strong>时，
+      文件才会通过系统分享面板交给<strong>你选择的那一个第三方应用</strong>（例如即时通讯、网盘、邮件）。
+    </p>
+    <ul>
+      <li>该过程由系统分享面板完成，本应用不参与、也无法获知你选择了哪个应用。</li>
+      <li>文件交给第三方应用后，其处理方式受<strong>该应用自身的隐私政策</strong>约束，不在本政策范围内。</li>
+      <li>若你不希望文件离开本机，请不要点击分享；直接在本应用内播放即可。</li>
+    </ul>
+
+    <h2>七、关于内录的特别说明</h2>
+    <p>
+      内录功能采集的是<strong>你本人设备上正在播放的音频</strong>，用于你个人的录制用途。
+    </p>
+    <ul>
+      <li>系统对标记为隐私保护的音频流不会提供内录数据，本应用无法也不会绕过该限制。</li>
+      <li>部分设备或系统版本可能不支持内录，此时应用会提示你改用麦克风模式。</li>
+      <li>内录期间若有来电或其他应用占用音频，录音可能被系统中断，这是系统行为。</li>
+    </ul>
+    <p>
+      <strong>请勿使用内录功能录制他人通话、他人隐私内容，或未经授权受著作权保护的内容。</strong>
+    </p>
+
+    <h2>八、免责声明</h2>
+
+    <h3>1. 合法使用</h3>
+    <p>
+      请勿使用本应用录制涉及他人隐私、商业秘密或未经授权的内容。
+      因不当使用本应用而产生的法律责任，由使用者自行承担。
+    </p>
+
+    <h3>2. 合规义务</h3>
+    <p>
+      用户应自行遵守所在国家或地区的法律法规。使用内录功能时，
+      请确认已获得相关内容的合法使用权。
+    </p>
+
+    <h3>3. 功能限制</h3>
+    <p>
+      受系统隐私保护机制限制，标记为受保护的音频流无法被内录；
+      部分设备不支持 AI 降噪等依赖系统能力的处理，应用会自动隐藏对应入口，此非应用缺陷。
+    </p>
+
+    <h3>4. 数据安全</h3>
+    <p>
+      录音文件仅存储于本机。因设备丢失、系统故障、误删除或卸载应用导致的数据丢失，
+      本应用不承担责任，建议你自行备份重要录音。
+    </p>
+
+    <h3>5. 服务可用性</h3>
+    <p>
+      本应用为本地工具软件，不提供云端服务。在法律允许的最大范围内，
+      开发者不对因使用或无法使用本应用所造成的任何间接损失承担责任。
+    </p>
+
+    <h2>九、付费与退款</h2>
+    <p>本应用为<strong>付费下载</strong>应用，需在应用市场完成购买后方可下载使用。</p>
+    <ul>
+      <li>实际价格以应用市场展示的价格为准，可能因国家或地区而异。</li>
+      <li>购买与结算由应用市场平台完成，本应用不直接处理任何支付信息，也不获取你的支付账号。</li>
+      <li>退款请依照应用市场的退款政策申请，通过应用市场的订单管理发起。</li>
+      <li>本应用为一次性买断制，不涉及自动续费或订阅扣款。</li>
+    </ul>
+
+    <h2>十、未成年人保护</h2>
+    <p>
+      本应用为通用工具类软件，不面向未成年人设计，也不会主动收集未成年人的个人信息。
+      未成年人应在监护人指导下使用本应用，尤其是内录功能涉及的他人隐私与著作权问题。
+    </p>
+
+    <h2>十一、政策更新</h2>
+    <p>
+      如本政策发生重大变更（例如新增数据处理方式），我们会在应用内以显著方式告知，
+      并同步更新本页面顶部的生效日期。继续使用本应用即表示你接受更新后的政策。
+    </p>
+
+    <h2>十二、联系我们</h2>
+    <p>
+      如你对本隐私政策有任何疑问、意见或建议，可通过应用市场应用详情页提供的联系方式与我们联系，
+      我们会在 15 个工作日内回复。
+    </p>
+
+    <h2>十三、开发者信息</h2>
+    <p>
+      <strong>开发者：</strong>张俊哲（个人开发者）<br>
+      <strong>应用名称：</strong>声声录<br>
+      <strong>应用包名：</strong>com.innerrecorder.app<br>
+      <strong>版本：</strong>1.0.0<br>
+      <strong>适用平台：</strong>HarmonyOS
+    </p>
+
+  </div>
+
+  <footer>
+    声声录 · 隐私政策<br>
+    所有录音与音频处理均在你的设备本地完成 · 应用未申请网络权限
+  </footer>
+
+</div>
+</body>
+</html>
